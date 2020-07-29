@@ -1,12 +1,13 @@
 {
-  "name": "snio.portfolio-api",
-  "version": "1.0.0",
+  "name": "mohamedebrahim96.portfolio-api",
+  "version": "1.2.5",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
     "next": "^9.4.4",
